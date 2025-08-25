@@ -1,26 +1,37 @@
 body {
-    background-color: hsl(180, 25%, 25%);
-    color: aliceblue;
+    background-color: hsl(180, 32%, 25%);
+    color:aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
-    font-size: 120%;
+a {
+    font-size: 150%;
 }
 a:link {
-    color: darkkhaki;
+    color:darkkhaki;
 }
 a:visited {
-    color: #ff00aa;
+    color:#f97ed0;
 }
 a:hover {
     color: white;
 }
 a:active {
-    color: chartreuse;
+    color:chartreuse;
 }
 h1 {
-    color: beige;
+    color:beige;
     background-color: black;
-    
 }
-
+img {
+    max-width: 100%;
+}
+.home-image {
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+.about-image {
+    width: 700px;
+    margin: auto;
+    display: block;
+}
