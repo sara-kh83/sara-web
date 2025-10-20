@@ -4,6 +4,7 @@
     --ash-gray: hsla(98, 6%, 73%, 1);
     --cadet-gray: hsla(180, 6%, 56%, 1);
     --hookers-green: hsla(169, 10%, 25%, 1);
+    color-scheme: light dark;
 }
 
 body {
@@ -81,4 +82,34 @@ img {
     color: var(--hookers-green);
     text-decoration: none;
     padding: 10px;
+}
+.nav-button {
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border-style: solid;
+    border-color: var(--alabaster);
+    border-radius: 5px;
+    display: none;
+}
+.nav-button img {
+    width: 40px;
+}
+#search {
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    max-width: 100%;
+}
+#search input {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px 0px 0px 5px;
+    flex: 1;
+}
+#search button {
+    padding: 10px;
+    border: solid 1px;
+    background-color: var(--hookers-green);
+    border-radius: 0px 5px 5px 0px;
 }
