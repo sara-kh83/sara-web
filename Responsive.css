@@ -1,1 +1,17 @@
-
+@media screen and (max-width: 480px) {
+    .logo {
+        max-width:70px;
+    }
+    .nav-button {
+        display: block;
+    }
+    #search button {
+        display: none;
+    }
+    #main {
+        order: 3;
+        flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+    }
+}
