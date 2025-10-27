@@ -6,7 +6,9 @@
     <link rel="icon" href="images/SiteIcon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -14,7 +16,7 @@
         <button class="nav-button" id="menu-button">
            <img src="images/burger.svg">
         </button>
-        <a href="index.html">
+        <a href="index.html" class="logo-link">
             <img class="logo" src="images/TipToe Soles_Logo.png" alt="tiptoe soles logo">
         </a>
         <!-- category menu -->
@@ -31,11 +33,18 @@
                 <img src="images/search-icon.svg">
             </button>
         </form>
-        <nav class="navigation">
-            <a href="account.html">Account</a>
-            <a href="wishlist.html">Wishlist</a>
+        <nav class="navigation" id="user-nav">
+            <a href="account.html">
+                <i class="fa-solid fa-user"></i>
+                <span class="sr-only">Account</span>
+            </a>
+            <a href="wishlist.html">
+                <i class="fa-solid fa-heart"></i>
+                <span class="sr-only">Wishlist</span>
+            </a>
             <a href="cart.html">
-                <img src="images/shopping-bag.svg" alt="shopping cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="sr-only">Shopping Bag</span>
             </a>
         </nav>
     </header>
