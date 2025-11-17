@@ -6,7 +6,9 @@
     <link rel="icon" href="images/SiteIcon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="script.js"></script>
@@ -16,10 +18,10 @@
 <body>
     <header class="page-header">
         <button class="nav-button" id="menu-button">
-           <img src="images/burger.svg">
+            <img src="images/burger.svg" alt="menu icon">
         </button>
         <a href="index.html" class="logo-link">
-            <img class="logo" src="images/TipToe Soles_Logo.png" alt="tiptoe soles logo">
+            <img class="logo" src="images/TipToe_Soles_Logo.png" alt="tiptoe soles logo">
         </a>
         <!-- category menu -->
         <nav class="navigation" id="main">
@@ -29,10 +31,10 @@
             <a href="services.html">Services</a>
         </nav>
         <!-- search form -->
-        <form id="search" method="get" action="">
+        <form id="search" method="get" action="/formdata">
             <input type="search" name="keywords" id="keywords" placeholder="Search for a product">
             <button type="submit">
-                <img src="images/search-icon.svg">
+                <img src="images/search-icon.svg" alt="search button icon">
             </button>
         </form>
         <nav class="navigation" id="user-nav">
@@ -68,7 +70,43 @@
             <h2>Four</h2>
         </div>
     </div>
-    <main class="main-content"></main>
+    <main class="main-content">
+        <div class="scrollbox">
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/shoes/Mens4by3.png" alt="mens shoes">
+                    <div class="card-content">
+                        <h3>Mens</h3>
+                        <button type="button">
+                            Shop Mens
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/shoes/Womens.jpg" alt="womens shoes">
+                    <div class="card-content">
+                        <h3>Womens</h3>
+                        <button type="button">
+                            Shop Womens
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/shoes/Accessories.jpg" alt="shoes accessories">
+                    <div class="card-content">
+                        <h3>Accessories</h3>
+                        <button type="button">
+                            Shop Accessories
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner2">
+            <h2>Spring Sale</h2>
+            <button type="button">Shop Spring Sale</button>
+        </div>
+    </main>
     <footer class="main-footer">
         <nav class="footer-nav">
             <a href="about.html">About</a>
