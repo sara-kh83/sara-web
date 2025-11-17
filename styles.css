@@ -196,4 +196,67 @@ nav a {
     display: flex;
     flex-direction: row;
     gap: 3em;
+    flex-wrap: wrap;
+}
+
+/* content */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.card img {
+    max-width: 100%;
+}
+.card-content {
+    padding: 15px;
+}
+.card {
+    flex: 1;
+    background-color: white;
+    border: 1px solid var(--cadet-gray);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card button {
+    min-width: 100%;
+    padding: 12px;
+    border: 1px solid var(--cadet-gray);
+    border-radius: 5px;
+}
+.main-content {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+}
+.banner2 {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient( 45deg,brown,yellow,green ); */
+    background: radial-gradient(circle,brown,yellow);
+    margin-top: 1em;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, 
+.contact-form textarea {
+    margin-bottom: 0.5em;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.contact-form button {
+    min-width: auto;
+}
+.contact-details a {
+    color: var(--hookers-green);
+    font-size: medium;
 }
